@@ -1,65 +1,47 @@
 body.
     background: PINK;
-    { margin: 0; 
-      padding: 0; 
-      box-sizing: border-box;
-     } 
-      body { 
-        background-image:url('/Desktop/images/massage.jpg');
-        background-size:cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        font-family: Arial, sans-serif;
-         background-color: #f9f9f9; 
-         color: #333; 
+    background-image:url('hhh/pexel.jpeg');
+    background-size: cover;
+    background-position:center;
+    body { 
+        font-family: Arial, sans-serif; 
+        margin: 0; 
+        padding: 0; 
+        background-color: #f4f4f4; 
+    } 
+    header { 
+        background-color: #333;
+         color: #fff;
+          padding: 1rem 0;
+           text-align: center; 
         } 
-          header {
-             background-color: #6ab0de; 
-            color: #fff;
-             padding: 20px; 
-             text-align: center; 
-            }
-              header h1 {
-                 margin-bottom: 10px;
+        nav ul{
+         list-style-type: none;
+          padding: 0; 
+        }
+         nav ul li { 
+            display: inline;
+             margin: 0 1rem;
+             }
+              nav ul li a {
+                 color: #fff; 
+                 text-decoration: none;
                  } 
-                  nav { 
-                    background-color: #428bca; 
-                    padding: 10px;
-                 } 
-                 nav ul {
-                     list-style-type: none;
-                      margin: 0;
-                       padding: 0; 
-                       text-align: center; 
-                    } 
-                    nav ul li { 
-                        display: inline;
-                         margin-right: 10px;
-                         } 
-                         nav ul li a { 
-                            color: #fff; 
-                            text-decoration: none; 
-                        } 
-                         section {
-                             padding: 20px; 
-                             background-color: #fff;
-                              margin: 20px;
-                               border-radius: 5px;
-                             } 
-                             section h2 {
-                                 margin-bottom: 10px; 
-                                } 
-                                section ul { 
-                                    list-style-type: none;
-                                 } 
-                                 section ul li { 
-                                    margin-bottom: 5px; 
-                                } 
-                                footer { background-color: #333; 
-                                    color: #fff; 
-                                    text-align: center; 
-                                    padding: 10px; 
-                                    position: fixed;
-                                     bottom: 0;
-                                      width: 100%;
-                                     }
+                 section {
+                     padding: 2rem;
+                      margin: 1rem 0;
+                     }
+                      section#about { 
+                        background-color: #e2e2e2;
+                     } 
+                     section#contact {
+                         background-color: #b2b2b2; 
+                        }
+                         footer { 
+                            background-color: #333; 
+                            color: #fff;
+                             text-align: center; 
+                             padding: 1rem 0; 
+                             position: fixed; 
+                             width: 100%;
+                              bottom: 0; }

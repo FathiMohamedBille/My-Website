@@ -1,5 +1,5 @@
 const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+h2.textContent = "Fathi Mohamed Bille";
 document.querySelector("body").appendChild(h2);
 {
 document.body.style.backgroundcolor=color;
@@ -12,8 +12,9 @@ document.body.style.backgroundcolor=color;
     newParagraph.textContent=text;
     document.body.appendChild(newParagraph);
 }
-document.addEventListener('DOMContentLoaded'),(Event) =>
-    ChangeBackgroundColor('lightblue');
-   showAlertMessage(Welcome to the website!'')
-   addParagraph('This is the a dynamically added paragraph');
-});
+document.addEventListener('DOMContentLoaded',
+     function() { 
+        const menuToggle = document.querySelector('.menu-toggle');
+         const nav = document.querySelector('nav ul'); 
+         menuToggle.addEventListener('click', function() { 
+            nav.classList.toggle('open'); }); });
