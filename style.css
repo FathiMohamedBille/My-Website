@@ -1,38 +1,61 @@
-body {
-    background: blue;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-  }
-  header {
-     background: #333;
-     color: #fff;
-      padding: 1em 0; 
-      text-align: center; }
-   header h1 { 
-    margin: 0; 
-    font-size: 2em; }
-    nav { 
-        margin: 1em 0; 
-        text-align: center; }
-     nav a { 
-        color: #333; 
-        text-decoration: none; 
-        margin: 0 1em; 
-        font-size: 1.2em; } 
-     nav a:hover { 
-        color: #007BFF; } 
-     .container {
-         max-width: 1100px; 
-         margin: auto;
-          overflow: auto; 
-          padding: 0 2em; } 
-     footer {
-         background: #333; 
-         color: #fff;
-          text-align: center; 
-          padding: 1em 0;
-           position: fixed; 
-           bottom: 0; width: 100%; }
+body.
+    background: PINK;
+    { margin: 0; 
+      padding: 0; 
+      box-sizing: border-box;
+     } 
+      body { 
+        font-family: Arial, sans-serif;
+         background-color: #f9f9f9; 
+         color: #333; 
+        } 
+          header {
+             background-color: #6ab0de; 
+            color: #fff;
+             padding: 20px; 
+             text-align: center; 
+            }
+              header h1 {
+                 margin-bottom: 10px;
+                 } 
+                  nav { 
+                    background-color: #428bca; 
+                    padding: 10px;
+                 } 
+                 nav ul {
+                     list-style-type: none;
+                      margin: 0;
+                       padding: 0; 
+                       text-align: center; 
+                    } 
+                    nav ul li { 
+                        display: inline;
+                         margin-right: 10px;
+                         } 
+                         nav ul li a { 
+                            color: #fff; 
+                            text-decoration: none; 
+                        } 
+                         section {
+                             padding: 20px; 
+                             background-color: #fff;
+                              margin: 20px;
+                               border-radius: 5px;
+                             } 
+                             section h2 {
+                                 margin-bottom: 10px; 
+                                } 
+                                section ul { 
+                                    list-style-type: none;
+                                 } 
+                                 section ul li { 
+                                    margin-bottom: 5px; 
+                                } 
+                                footer { background-color: #333; 
+                                    color: #fff; 
+                                    text-align: center; 
+                                    padding: 10px; 
+                                    position: fixed;
+                                     bottom: 0;
+                                      width: 100%;
+                                     }
